@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+.encryption_key
+
+# Local databases (tests use SQLite)
+*.db
+*.sqlite3
+
+# Logs
+*.log
